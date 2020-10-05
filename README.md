@@ -1,6 +1,6 @@
 # FgCF (Financial-grade Cloud Fundamentals) コンテンツインデックス
 
-as of 2020/08/14
+as of 2020/10/05
 
 - zip ファイルのパスワードはすべて "mskk" です。
 - 各資料は、作成時点の Azure の仕様に基づいて作成されています。最新版では異なる場合がありますのでご注意ください。
@@ -40,6 +40,12 @@ as of 2020/08/14
       - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(ppt).zip), [video #1](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video1).zip))([YouTube #1](https://youtu.be/PrE3c1ZvL4s))
       - 構築の要点 ([video #2](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video2).zip)) ([YouTube #2](https://youtu.be/PL5MtSVzdI4))
       - リファレンスアーキテクチャ ([video #3](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip)) ([YouTube #3](https://youtu.be/-Mawv15LhQc))
+
+    - ARO (Azure Red Hat OpenShift)
+      - 技術概要、構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_05_AROTechReference_v0.13.zip))
+      - リファレンスアーキテクチャ、構築スクリプト ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_05_AROTechReference_v0.13.zip))
+      - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
+
     - Azure Batch
       - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Materials.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Video.zip)) ([YouTube #1](https://www.youtube.com/watch?v=-cJ50AfA8B4&t=2675s))
       - 設計・実装技法 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_ppt_v0.20.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_v0.20.zip)) ([YouTube #2](https://youtu.be/o7AX2sP5TyE))
