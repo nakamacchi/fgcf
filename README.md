@@ -44,7 +44,7 @@ as of 2020/10/05
     - ARO (Azure Red Hat OpenShift)
       - 技術概要、構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_05_AROTechReference_v0.13.zip))
       - リファレンスアーキテクチャ、構築スクリプト ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_05_AROTechReference_v0.13.zip))
-      - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
+      - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道様・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
 
     - Azure Batch
       - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Materials.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Video.zip)) ([YouTube #1](https://www.youtube.com/watch?v=-cJ50AfA8B4&t=2675s))
