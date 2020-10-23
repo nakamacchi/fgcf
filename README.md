@@ -24,7 +24,7 @@ as of 2020/10/23
     - VDC 構築の進め方の全体像 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_02_05_FgCF_AzureVDC_ProjectPlanOverview_v0.04.zip))
     - ネットワーク基盤の構成方法
       - Azure ネットワークの閉域構成方法 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_10_01_AzureClosedNetworkOverview_v0.21.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_06_17_AzureClosedNetworkOverview(Video)_v0.06.zip)) <span style="color: red;">**★★ 重要**</a>
-      - ARM テンプレートの利用方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_01_03_PracticalARMTemplate.zip)) <span style="color: red;">**★★ 重要**</a>
+      - ARM テンプレートの利用方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_01_03_PracticalARMTemplate.zip))(YouTube [前半](https://youtu.be/Hi4Xh8O10W8), [後半](https://youtu.be/aLLFJVcHY70)) <span style="color: red;">**★★ 重要**</a>
     - 認証基盤の構成方法
       - Azure AD 基礎 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip)) ([YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA))<span style="color: red;">**★★ 重要**</a>
       - Azure AD 詳細 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_04_18_AzureAuthorizationDesignAndManagement_v0.67.zip))
