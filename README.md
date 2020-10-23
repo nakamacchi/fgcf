@@ -1,6 +1,6 @@
 # FgCF (Financial-grade Cloud Fundamentals) コンテンツインデックス
 
-as of 2020/10/20
+as of 2020/10/23
 
 - zip ファイルのパスワードはすべて "mskk" です。
 - 各資料は、作成時点の Azure の仕様に基づいて作成されています。最新版では異なる場合がありますのでご注意ください。
@@ -26,8 +26,9 @@ as of 2020/10/20
       - Azure ネットワークの閉域構成方法 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_10_01_AzureClosedNetworkOverview_v0.21.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_06_17_AzureClosedNetworkOverview(Video)_v0.06.zip)) <span style="color: red;">**★★ 重要**</a>
       - ARM テンプレートの利用方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_01_03_PracticalARMTemplate.zip)) <span style="color: red;">**★★ 重要**</a>
     - 認証基盤の構成方法
-      - Azure AD 基礎 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip)) <span style="color: red;">**★★ 重要**</a>
+      - Azure AD 基礎 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip)) ([YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA))<span style="color: red;">**★★ 重要**</a>
       - Azure AD 詳細 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_04_18_AzureAuthorizationDesignAndManagement_v0.67.zip))
+      - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip))([YouTube](https://youtu.be/wCqnGJHQueM))
   - IaaS の構成方法
     - VNET, IaaS VM セキュリティベースライン ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip)) ([YouTube](https://youtu.be/uB4j8k9N4ag)) <span style="color: red;">**★ オススメ**</a>
     - リファレンスアーキテクチャと構築の要点 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip)) ([YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
