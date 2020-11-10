@@ -24,31 +24,32 @@ as of 2020/10/23
 
 ## ① IT 環境
 - ゼロトラスト型マルチクラウド IT 環境
-  - ゼロトラスト入門編 ([Web記事](https://nakama.azurewebsites.net/?p=65), [ppt](https://nakama.blob.core.windows.net/mskk/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_ppt_v0.40a.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_movie_v0.40a.zip)) ([YouTube](https://www.youtube.com/watch?v=V9t3t36b4Mc)) <span style="color: red;">**★★★ 超重要！**</a>
-  - OA 環境設計 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_08_25_FgCF_ZeroTrustITInfraDesign_ppt_v0.17.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_08_25_FgCF_ZeroTrustITInfraDesign_v0.17.zip)) ([YouTube](https://youtu.be/_IegEjBL_ts))
-  - Azure Well-Architected Framework : Security セクション概要解説 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_06_12_AzureW-AF_Security_v0.13.zip)) ([YouTube](https://youtu.be/Z0gqDWX6VnE)) <span style="color: red;">**★★★ 超重要！**</a>
+  - ゼロトラスト入門編 ([Web記事](https://nakama.azurewebsites.net/?p=65), [ppt](https://nakama.blob.core.windows.net/mskk/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_ppt_v0.40a.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_movie_v0.40a.zip), [YouTube](https://www.youtube.com/watch?v=V9t3t36b4Mc)) <span style="color: red;">**★★★ 超重要！**</a>
+  - OA 環境設計 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_08_25_FgCF_ZeroTrustITInfraDesign_ppt_v0.17.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_08_25_FgCF_ZeroTrustITInfraDesign_v0.17.zip), [YouTube](https://youtu.be/_IegEjBL_ts))
+  - Azure Well-Architected Framework : Security セクション概要解説 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_06_12_AzureW-AF_Security_v0.13.zip), [YouTube](https://youtu.be/Z0gqDWX6VnE)) <span style="color: red;">**★★★ 超重要！**</a>
 - Azure による仮想データセンタ構築手法
   - 共通技術
     - VDC 構築の進め方の全体像 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_02_05_FgCF_AzureVDC_ProjectPlanOverview_v0.04.zip))
     - ネットワーク基盤の構成方法
-      - Azure 仮想ネットワーク基礎 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35.zip)) ([YouTube](https://youtu.be/SpO_cOaZxdw)) <span style="color: red;">**★★ 重要**</a>
-      - ARM テンプレートの利用方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_01_03_PracticalARMTemplate.zip))(YouTube [前半](https://youtu.be/Hi4Xh8O10W8), [後半](https://youtu.be/aLLFJVcHY70)) <span style="color: red;">**★★ 重要**</a>
+      - Azure 仮想ネットワーク基礎 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35.zip), [YouTube](https://youtu.be/SpO_cOaZxdw)) <span style="color: red;">**★★ 重要**</a>
+      - ARM テンプレートの利用方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_01_03_PracticalARMTemplate.zip), YouTube [前半](https://youtu.be/Hi4Xh8O10W8), [後半](https://youtu.be/aLLFJVcHY70)) <span style="color: red;">**★★ 重要**</a>
     - 認証基盤の構成方法
-      - Azure AD 基礎 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip)) ([YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA))<span style="color: red;">**★★ 重要**</a>
+      - Azure AD 基礎 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip), [YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA))<span style="color: red;">**★★ 重要**</a>
       - Azure AD 詳細 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_04_18_AzureAuthorizationDesignAndManagement_v0.67.zip))
-      - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip))([YouTube](https://youtu.be/wCqnGJHQueM))
+      - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip), [YouTube](https://youtu.be/wCqnGJHQueM))
   - IaaS の構成方法
-    - VNET, IaaS VM セキュリティベースライン ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip)) ([YouTube](https://youtu.be/uB4j8k9N4ag)) <span style="color: red;">**★ オススメ**</a>
-    - リファレンスアーキテクチャと構築の要点 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip)) ([YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
+    - VNET, IaaS VM セキュリティベースライン ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip), [YouTube](https://youtu.be/uB4j8k9N4ag)) <span style="color: red;">**★ オススメ**</a>
+    - リファレンスアーキテクチャと構築の要点 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip), [YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
   - PaaS の構成方法
+    - 入門 コンテナ技術 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_video.zip), [YouTube](https://youtu.be/9qFnTc382Ew)) ※ こちらはコンテナ技術 (Docker, Kubernetes など) を知らない方向けの入門コンテンツです。下記の PaaS コンテンツを見る前の基礎知識習得用にご利用ください。
     - App Service (Web App), SQL Database
-      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #1](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part1.zip))([YouTube #1](https://youtu.be/DBlPPic3pJ0))
-      - 構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #2](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part2.zip)) ([YouTube #2](https://youtu.be/JGNMw91ApX0))
-      - リファレンスアーキテクチャ ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #3](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part3.zip)) ([YouTube #3](https://youtu.be/hZz93refe1k))
+      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #1](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part1.zip), [YouTube #1](https://youtu.be/DBlPPic3pJ0))
+      - 構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #2](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part2.zip), [YouTube #2](https://youtu.be/JGNMw91ApX0))
+      - リファレンスアーキテクチャ ([ppt](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_v0.06.zip), [video #3](https://nakama.blob.core.windows.net/mskk/2020_06_16_AppService_TechnicalReference_Part3.zip), [YouTube #3](https://youtu.be/hZz93refe1k))
     - AKS (Azure Kubernetes Services)
-      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(ppt).zip), [video #1](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video1).zip))([YouTube #1](https://youtu.be/PrE3c1ZvL4s))
-      - 構築の要点 ([video #2](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video2).zip)) ([YouTube #2](https://youtu.be/PL5MtSVzdI4))
-      - リファレンスアーキテクチャ ([video #3](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip)) ([YouTube #3](https://youtu.be/-Mawv15LhQc))
+      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(ppt).zip), [video #1](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video1).zip), [YouTube #1](https://youtu.be/PrE3c1ZvL4s))
+      - 構築の要点 ([video #2](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video2).zip), [YouTube #2](https://youtu.be/PL5MtSVzdI4))
+      - リファレンスアーキテクチャ ([video #3](https://nakama.blob.core.windows.net/mskk/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip), [YouTube #3](https://youtu.be/-Mawv15LhQc))
 
     - ARO (Azure Red Hat OpenShift)
       - 技術概要、構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_20_AROTechReference_v0.14.zip))
@@ -56,14 +57,14 @@ as of 2020/10/23
       - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道様・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
 
     - Azure Batch
-      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Materials.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Video.zip)) ([YouTube #1](https://www.youtube.com/watch?v=-cJ50AfA8B4&t=2675s))
-      - 設計・実装技法 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_ppt_v0.20.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_v0.20.zip)) ([YouTube #2](https://youtu.be/o7AX2sP5TyE))
+      - 技術概要 ([ppt](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Materials.zip), [video](https://nakama.blob.core.windows.net/mskk/2019_05_21_AzureBatchSample_Video.zip), [YouTube #1](https://www.youtube.com/watch?v=-cJ50AfA8B4&t=2675s))
+      - 設計・実装技法 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_ppt_v0.20.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_08_14_AzureBatch_TechnicalReference_v0.20.zip), [YouTube #2](https://youtu.be/o7AX2sP5TyE))
       - リファレンスアーキテクチャ
   - DevOps の構成方法
-    - Azure DevOps 概要デモ ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_02_26_AzureDevOps_OverviewAndDemo_v0.02.zip)) ([YouTube](https://www.youtube.com/watch?v=aMLGuAdVsQ0&t=6045s)) <span style="color: red;">**★ オススメ**</a>
+    - Azure DevOps 概要デモ ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_02_26_AzureDevOps_OverviewAndDemo_v0.02.zip), [YouTube](https://www.youtube.com/watch?v=aMLGuAdVsQ0&t=6045s)) <span style="color: red;">**★ オススメ**</a>
     - 権限分掌 作業ワークフローモデル
   - DaaS の構成方法
-    - WVD 技術リファレンス ([ppt](https://nakama.blob.core.windows.net/mskk/2020_01_06_WVDTechReference_v0.19.zip)) ([YouTube](https://www.youtube.com/watch?v=Ac6ZfZFwwIo))
+    - WVD 技術リファレンス ([ppt](https://nakama.blob.core.windows.net/mskk/2020_01_06_WVDTechReference_v0.19.zip), [YouTube](https://www.youtube.com/watch?v=Ac6ZfZFwwIo))
 
 <hr />
 
