@@ -8,19 +8,22 @@ as of 2020/10/23
 
 <hr />
 
-## 全体概要
-- [FgCF のご紹介](#FgCFのご紹介)
-- FgCF 全体概要解説 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_02_12_FgCF_Overview_v0.01.zip))
+## FgCF について
+そもそも FgCF とは何か？ に関するご紹介は、本ページの後ろのほうにあります。下記リンクでジャンプしてご確認ください。
+- [Web 記事](#FgCFのご紹介)
 
 <hr />
 
-## オススメ学習順序
+## Azure 学習に FgCF を利用する場合の使い方
 
-コンテンツが多くなってきたため、オススメ学習順序を作成しました。興味のあるところから見ていただくのが一番ですが、FgCF のコンテンツを使って手っ取り早く Azure を習得したい、という方はこちらも参考にしてみてください。
+コンテンツが多くなってきたため、オススメ学習順序を作成しました。本来であればゼロトラスト型マルチクラウド IT 環境の設計技法から学習していくべきところですが、FgCF のコンテンツを使って手っ取り早く Azure を習得したい、という方は以下の学習フローがオススメです。
 
 ![fgcf-roadmap](images/fgcf-roadmap.png)
 
 <hr />
+
+## FgCF 全体概要
+- FgCF 全体概要解説 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_11_25_FgCF_Overview_v0.02_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_11_25_FgCF_Overview_v0.02.zip), [YouTube](https://youtu.be/mTVgSGGt8NE))
 
 ## ① IT 環境
 - ゼロトラスト型マルチクラウド IT 環境
