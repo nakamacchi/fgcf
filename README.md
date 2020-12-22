@@ -42,7 +42,8 @@ as of 2020/10/23
       - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip), [YouTube](https://youtu.be/wCqnGJHQueM))
   - IaaS の構成方法
     - VNET, IaaS VM セキュリティベースライン ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip), [YouTube](https://youtu.be/uB4j8k9N4ag)) <span style="color: red;">**★ オススメ**</a>
-    - リファレンスアーキテクチャと構築の要点 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip), [YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
+    - リファレンスアーキテクチャ（延伸 VNET 版）と構築の要点 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip), [YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
+    - リファレンスアーキテクチャ（隔離 VNET 版）と構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_movie.zip), [YouTube](https://youtu.be/nX4JZNXTjz4)) <span style="color: red;">**★★ 重要**</a>
   - PaaS の構成方法
     - 入門 コンテナ技術 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_ppt.zip), [video](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_video.zip), [YouTube](https://youtu.be/9qFnTc382Ew)) ※ こちらはコンテナ技術 (Docker, Kubernetes など) を知らない方向けの入門コンテンツです。下記の PaaS コンテンツを見る前の基礎知識習得用にご利用ください。
     - App Service (Web App), SQL Database
