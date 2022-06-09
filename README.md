@@ -55,8 +55,8 @@
       - リファレンスアーキテクチャ ([video #3](https://download.microsoft.com/download/b/a/8/ba8a9c96-4fc8-43ed-8309-9624d1a45779/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip), [YouTube #3](https://youtu.be/-Mawv15LhQc))
 
     - ARO (Azure Red Hat OpenShift)
-      - 技術概要、構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_20_AROTechReference_v0.14.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=3cCoj%2BKbuI%2BkF0x0G%2FXSzDBGuOvLhdrm9%2Bw1820%2F3nI%3D))
-      - リファレンスアーキテクチャ、構築スクリプト ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_20_AROTechReference_v0.14.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=3cCoj%2BKbuI%2BkF0x0G%2FXSzDBGuOvLhdrm9%2Bw1820%2F3nI%3D))
+      - 技術概要、構築の要点 ([ppt](https://aka.ms/AAh58t1))
+      - リファレンスアーキテクチャ、構築スクリプト ([ppt](https://aka.ms/AAh58t1), [スクリプト](https://aka.ms/AAh5xey))
       - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道様・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
 
     - Azure Batch
@@ -67,6 +67,8 @@
     - Azure DevOps 概要デモ ([ppt](https://download.microsoft.com/download/a/f/f/affd5a6d-342f-4c19-a250-040d1ab3ce86/AzureDevOps_OverviewAndDemo_v0.02.pptx), [video](https://download.microsoft.com/download/2/0/b/20b0d275-0256-43b2-ac39-d22c9d5a47a6/2020_02_26_AzureDevOps_OverviewAndDemo_v0.02.zip), [YouTube](https://www.youtube.com/watch?v=aMLGuAdVsQ0&t=6045s)) <span style="color: red;">**★ オススメ**</a>
   - DaaS の構成方法
     - WVD 技術リファレンス ([ppt](https://download.microsoft.com/download/7/0/4/7044dce5-224d-48ae-ab78-e25935e59b6f/WVD_Commentary_material_v0.19.pptx), [YouTube](https://www.youtube.com/watch?v=Ac6ZfZFwwIo))
+  - 開発技術
+    - ASP.NET Blazor ([ppt](https://download.microsoft.com/download/7/0/5/705c8f4d-293e-4baa-9cc2-8db3ac9cc5dd/ASP.NETBlazor_v0.30.pptx), [YouTube](https://download.microsoft.com/download/0/1/f/01f96048-4250-4d8a-aa5d-d52a7c94a219/2021_11_25_AspNetCoreBlazor%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0.zip))
 
 <hr />
 
