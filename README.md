@@ -68,7 +68,7 @@
   - DaaS の構成方法
     - WVD 技術リファレンス ([ppt](https://download.microsoft.com/download/7/0/4/7044dce5-224d-48ae-ab78-e25935e59b6f/WVD_Commentary_material_v0.19.pptx), [YouTube](https://www.youtube.com/watch?v=Ac6ZfZFwwIo))
   - 開発技術
-    - ASP.NET Blazor ([ppt](https://download.microsoft.com/download/7/0/5/705c8f4d-293e-4baa-9cc2-8db3ac9cc5dd/ASP.NETBlazor_v0.30.pptx), [YouTube](https://download.microsoft.com/download/0/1/f/01f96048-4250-4d8a-aa5d-d52a7c94a219/2021_11_25_AspNetCoreBlazor%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0.zip))
+    - ASP.NET Blazor ([ppt](https://download.microsoft.com/download/7/0/5/705c8f4d-293e-4baa-9cc2-8db3ac9cc5dd/ASP.NETBlazor_v0.30.pptx), [サンプルプログラム](https://download.microsoft.com/download/0/1/f/01f96048-4250-4d8a-aa5d-d52a7c94a219/2021_11_25_AspNetCoreBlazor%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0.zip))
 
 <hr />
 
