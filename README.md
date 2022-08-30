@@ -83,6 +83,15 @@
 ## ③ 人材育成
 - 人材育成計画策定ガイド
 
+## その他
+- 一般公開されているオススメトレーニングビデオとセッション
+  - パートナー向け mstep トレーニング（Azure だけでなく CAF, WAF のトレーニングなどもあります）
+    - https://partner.microsoft.com/ja-jp/training/mstep-platform
+  - パートナー向け Azure 製品トレーニング
+    - https://www.youtube.com/c/MicrosoftPartnerNetworkJapan/videos
+  - FTA (Fast Track for Azure) Live セッション
+    - https://fasttrack.azure.com/live/language/ja
+
 <hr />
 
 # FgCFのご紹介
