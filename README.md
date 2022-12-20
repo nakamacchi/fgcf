@@ -5,6 +5,11 @@
 - リンクが張られていないものは、開発予定 or 開発中のものです。
 - マイクロソフト Web サイト上の公式ページは[こちら](https://www.microsoft.com/ja-jp/events/azurebase/fgcf/)です。（内容は同じですが、こちらのページではご利用方法や FgCF の目的、学習順序などを解説しております。）
 
+## (注意・参考) Azure 技術資料インデックスについて
+
+- 本ページでは FgCF 関連の資料のみ掲載しております。
+- 日本マイクロソフトの社員が作成してネット上に公開している日本語の Azure 技術情報へのポインタをかたっぱしから集めた別サイト（[Azure 技術情報インデックス](https://github.com/Azure/jp-techdocs/)）も併せてご確認ください。
+
 <hr />
 
 ## FgCF について
@@ -29,6 +34,7 @@
   - ゼロトラスト入門編 ([Web記事](https://nakama.azurewebsites.net/?p=65), [ppt](https://download.microsoft.com/download/d/f/e/dfed7e7b-75e8-4939-823d-25a06b0abd68/FgCF_%E2%91%A0_0_Zero_trust_type_multi_cloud_IT_environment_Introduction_Further_shortened_version_v0.40.pptx), [video](https://download.microsoft.com/download/b/5/0/b507ac40-280b-413a-be8a-56b29a6a765d/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_movie_v0.40a.zip), [YouTube](https://www.youtube.com/watch?v=V9t3t36b4Mc)) <span style="color: red;">**★★★ 超重要！**</a>
   - OA 環境設計 ([video](https://download.microsoft.com/download/3/7/0/370c26c3-a785-462b-a484-b69500d28680/FgCF_Zero_Trust_IT_Infrastructure_Design_way_of_thinking_video_v0.17.mp4), [YouTube](https://youtu.be/_IegEjBL_ts))
   - Azure Well-Architected Framework : Security セクション概要解説 ([ppt](https://download.microsoft.com/download/1/3/8/13855030-7731-47a8-9759-ff28d9c32e3e/AzureW-AF_Security_section_Overview_documentation_v0.13.pptx), [video](https://download.microsoft.com/download/1/4/9/149d6525-9a7a-42a4-9302-87efce5f4d82/2020_06_12_AzureW_AF_Security_v0.13.zip), [YouTube](https://youtu.be/Z0gqDWX6VnE)) <span style="color: red;">**★★★ 超重要！**</a>
+  - 超訳 Azure CAF ([ppt](https://aka.ms/AAj0ml9), [video(前半)](https://aka.ms/AAj0ml8), [video(後半)](https://aka.ms/AAj08w7)) <span style="color: red;">**★★★ 超重要！**</a>
 - Azure による仮想データセンタ構築手法
   - 共通技術
     - VDC 構築の進め方の全体像 ([ppt](https://download.microsoft.com/download/c/7/3/c73c0312-1905-4826-bf9a-d92c1a40e503/FgCF_%E2%91%A0_0b_Accredited_Azure_Base_Construction_Overview_v0.04.pptx))
@@ -40,7 +46,8 @@
       - Azure AD 詳細 ([ppt](https://download.microsoft.com/download/4/4/2/442b4fb3-f47a-4d13-b67a-ab5c721dc4ac/AzureAuthorizationDesignAndManagement_v0.67.pptx))
       - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=L5MTAK9A2Bqd19wuxja9agWfrWAEmzOfzAGJASbv8mU%3D), [YouTube](https://youtu.be/wCqnGJHQueM))
   - IaaS の構成方法
-    - VNET, IaaS VM セキュリティベースライン ([ppt](https://download.microsoft.com/download/9/a/2/9a258748-936b-4b43-b127-2adc616e70d7/FgCF_%E2%91%A0_3_SecurityBaseline(IaaS)_v1.00.pptx), [video](https://download.microsoft.com/download/d/6/0/d60816c1-47d8-4e7f-9a3a-ef404b441104/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip), [YouTube](https://youtu.be/uB4j8k9N4ag)) <span style="color: red;">**★ オススメ**</a>
+    - Azure IaaS VM 管理ガイド ([ppt](https://aka.ms/AAj08w4), [ビデオ前半](https://aka.ms/AAj08w6), [ビデオ後半](https://aka.ms/AAj0ggw), [デモ・自習スクリプト](https://aka.ms/AAj0ggu))<span style="color: red;">**★★★ 超重要！**</a>
+    - VNET, IaaS VM セキュリティベースライン ([ppt](https://download.microsoft.com/download/9/a/2/9a258748-936b-4b43-b127-2adc616e70d7/FgCF_%E2%91%A0_3_SecurityBaseline(IaaS)_v1.00.pptx), [video](https://download.microsoft.com/download/d/6/0/d60816c1-47d8-4e7f-9a3a-ef404b441104/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip), [YouTube](https://youtu.be/uB4j8k9N4ag))
     - リファレンスアーキテクチャ（延伸 VNET 版）と構築の要点 ([ppt](https://download.microsoft.com/download/d/f/f/dff93ba3-ab62-4a66-afc7-5d10da094c18/Web_DB_type_system_reference_architecture_and_main_points_of_construction(IaaS_VM_edition).pptx), [video](https://download.microsoft.com/download/d/a/8/da86811f-2aba-46da-ab2a-c42ed4e5a5c8/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip), [YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
     - リファレンスアーキテクチャ（隔離 VNET 版）と構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_ppt.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=G%2FHRQ7CUgRJxaQFM%2BMyF3%2FSBeGSjHYnojNByvJSlZOQ%3D), [video](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_movie.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=gfcD8pnRaI%2F4czv%2B2Dq3Q9d4%2FFPsm2cOtqjcZaSRXOw%3D), [YouTube](https://youtu.be/nX4JZNXTjz4), [Azure Firewall Premium IDPS 対応版 構築スクリプト](https://nakama.blob.core.windows.net/mskk/2021_05_31_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.11_docs.zip)) <span style="color: red;">**★★ 重要**</a>    
   - PaaS の構成方法
