@@ -29,66 +29,35 @@
 ## FgCF 全体概要
 - FgCF 全体概要解説 ([ppt](https://download.microsoft.com/download/c/d/b/cdbe46e1-6168-40af-bd86-fbcdd163cfc9/FgCF_%E2%93%AA_Overview_Explanation_Proposal_Material_v0.01.pptx), [YouTube](https://youtu.be/mTVgSGGt8NE))
 
-## ① IT 環境
-- ゼロトラスト型マルチクラウド IT 環境
-  - ゼロトラスト入門編 ([Web記事](https://nakama.azurewebsites.net/?p=65), [ppt](https://download.microsoft.com/download/d/f/e/dfed7e7b-75e8-4939-823d-25a06b0abd68/FgCF_%E2%91%A0_0_Zero_trust_type_multi_cloud_IT_environment_Introduction_Further_shortened_version_v0.40.pptx), [video](https://download.microsoft.com/download/b/5/0/b507ac40-280b-413a-be8a-56b29a6a765d/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_movie_v0.40a.zip), [YouTube](https://www.youtube.com/watch?v=V9t3t36b4Mc)) <span style="color: red;">**★★★ 超重要！**</a>
-  - OA 環境設計 ([video](https://download.microsoft.com/download/3/7/0/370c26c3-a785-462b-a484-b69500d28680/FgCF_Zero_Trust_IT_Infrastructure_Design_way_of_thinking_video_v0.17.mp4), [YouTube](https://youtu.be/_IegEjBL_ts))
-  - Azure Well-Architected Framework : Security セクション概要解説 ([ppt](https://download.microsoft.com/download/1/3/8/13855030-7731-47a8-9759-ff28d9c32e3e/AzureW-AF_Security_section_Overview_documentation_v0.13.pptx), [video](https://download.microsoft.com/download/1/4/9/149d6525-9a7a-42a4-9302-87efce5f4d82/2020_06_12_AzureW_AF_Security_v0.13.zip), [YouTube](https://youtu.be/Z0gqDWX6VnE)) <span style="color: red;">**★★★ 超重要！**</a>
-  - 超訳 Azure CAF ([ppt](https://aka.ms/AAj0ml9), [video(前半)](https://aka.ms/AAj0ml8), [video(後半)](https://aka.ms/AAj08w7)) <span style="color: red;">**★★★ 超重要！**</a>
-- Azure による仮想データセンタ構築手法
-  - 共通技術
-    - VDC 構築の進め方の全体像 ([ppt](https://download.microsoft.com/download/c/7/3/c73c0312-1905-4826-bf9a-d92c1a40e503/FgCF_%E2%91%A0_0b_Accredited_Azure_Base_Construction_Overview_v0.04.pptx))
-    - ネットワーク基盤の構成方法
-      - Azure 仮想ネットワーク基礎 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35_ppt.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=MCPZxot7ZW8MRh0zcyAXCPNKJePASpPXz77kxPFjdqk%3D), [video](https://nakama.blob.core.windows.net/mskk/2020_10_29_FgCF_AzureNetworkBasis_v0.35.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=OB8XSjJjMTmcBSo1NElvujGA646ACeuYJ5JRptOZ41c%3D), [YouTube](https://youtu.be/SpO_cOaZxdw)) <span style="color: red;">**★★ 重要**</a>
-      - ARM テンプレートの利用方法 ([ppt](https://download.microsoft.com/download/e/e/9/ee906254-0816-41f4-98eb-612bcbf1455a/ARM_template_development_v0.33.pptx), [video](https://download.microsoft.com/download/1/f/0/1f063580-4ba6-41f1-913f-2ba81425185c/2019_01_03_PracticalARMTemplate.zip), YouTube [前半](https://youtu.be/Hi4Xh8O10W8), [後半](https://youtu.be/aLLFJVcHY70)) <span style="color: red;">**★★ 重要**</a>
-    - 認証基盤の構成方法
-      - Azure AD 基礎 ([ppt](https://download.microsoft.com/download/1/3/8/138c3005-82f4-41db-bf78-9ce6d46af2ab/FgCF_%E2%91%A0_2_AzureAD_Overview_v0.70.pptx), [video](https://download.microsoft.com/download/f/6/0/f6093441-8ca4-4901-b74e-f87894fc9ad8/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip), [YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA))<span style="color: red;">**★★ 重要**</a>
-      - Azure AD 詳細 ([ppt](https://download.microsoft.com/download/4/4/2/442b4fb3-f47a-4d13-b67a-ab5c721dc4ac/AzureAuthorizationDesignAndManagement_v0.67.pptx))
-      - Azure 管理用 Azure AD テナントの作成方法 ([ppt, video](https://nakama.blob.core.windows.net/mskk/2020_10_10_AzureAADforAzure_v0.01.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=L5MTAK9A2Bqd19wuxja9agWfrWAEmzOfzAGJASbv8mU%3D), [YouTube](https://youtu.be/wCqnGJHQueM))
-  - IaaS の構成方法
-    - Azure IaaS VM 管理ガイド ([ppt](https://aka.ms/AAj08w4), [ビデオ前半](https://aka.ms/AAj08w6), [ビデオ後半](https://aka.ms/AAj0ggw), [デモ・自習スクリプト](https://aka.ms/AAj0ggu))<span style="color: red;">**★★★ 超重要！**</a>
-    - VNET, IaaS VM セキュリティベースライン ([ppt](https://download.microsoft.com/download/9/a/2/9a258748-936b-4b43-b127-2adc616e70d7/FgCF_%E2%91%A0_3_SecurityBaseline(IaaS)_v1.00.pptx), [video](https://download.microsoft.com/download/d/6/0/d60816c1-47d8-4e7f-9a3a-ef404b441104/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip), [YouTube](https://youtu.be/uB4j8k9N4ag))
-    - リファレンスアーキテクチャ（延伸 VNET 版）と構築の要点 ([ppt](https://download.microsoft.com/download/d/f/f/dff93ba3-ab62-4a66-afc7-5d10da094c18/Web_DB_type_system_reference_architecture_and_main_points_of_construction(IaaS_VM_edition).pptx), [video](https://download.microsoft.com/download/d/a/8/da86811f-2aba-46da-ab2a-c42ed4e5a5c8/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip), [YouTube](https://youtu.be/KxcieZvAJKo)) <span style="color: red;">**★★ 重要**</a>
-    - リファレンスアーキテクチャ（隔離 VNET 版）と構築の要点 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_ppt.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=G%2FHRQ7CUgRJxaQFM%2BMyF3%2FSBeGSjHYnojNByvJSlZOQ%3D), [video](https://nakama.blob.core.windows.net/mskk/2020_12_22_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.01_movie.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=gfcD8pnRaI%2F4czv%2B2Dq3Q9d4%2FFPsm2cOtqjcZaSRXOw%3D), [YouTube](https://youtu.be/nX4JZNXTjz4), [Azure Firewall Premium IDPS 対応版 構築スクリプト](https://nakama.blob.core.windows.net/mskk/2021_05_31_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.11_docs.zip)) <span style="color: red;">**★★ 重要**</a>    
-  - PaaS の構成方法
-    - 入門 コンテナ技術 ([ppt](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_ppt.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=SRl4SSGlKi0Ojn6VPri%2BewXyBtIPwuLgY%2BRWAQDaAg4%3D), [video](https://nakama.blob.core.windows.net/mskk/2020_07_30_DockerKubernetesBasics_v0.03_video.zip?sv=2020-04-08&si=mskk-readonly&sr=b&sig=i9UBneMqeH9Snofwhd78ScBOXh%2FKudah2BoX62EktF4%3D), [YouTube](https://youtu.be/9qFnTc382Ew)) ※ こちらはコンテナ技術 (Docker, Kubernetes など) を知らない方向けの入門コンテンツです。下記の PaaS コンテンツを見る前の基礎知識習得用にご利用ください。
-    - App Service (Web App), SQL Database
-      - 技術概要 ([ppt](https://download.microsoft.com/download/6/9/3/6934d11e-78dc-4c00-ae61-316067193dc1/AppService_TechnicalReference_v0.06.pptx), [video #1](https://download.microsoft.com/download/6/e/a/6ea96ebd-d9ff-4291-8976-a23698bf1282/2020_06_16_AppService_TechnicalReference_Part1.zip), [YouTube #1](https://youtu.be/DBlPPic3pJ0))
-      - 構築の要点 ([video #2](https://download.microsoft.com/download/e/1/3/e130959e-7e85-48a0-a583-6ac49eed7303/2020_06_16_AppService_TechnicalReference_Part2.zip), [YouTube #2](https://youtu.be/JGNMw91ApX0))
-      - リファレンスアーキテクチャ ([video #3](https://download.microsoft.com/download/1/2/4/124c009d-2783-447f-8dad-124499c1523b/2020_06_16_AppService_TechnicalReference_Part3.zip), [YouTube #3](https://youtu.be/hZz93refe1k))
-    - AKS (Azure Kubernetes Services)
-      - 技術概要 ([ppt](https://download.microsoft.com/download/6/4/c/64c7f727-7712-49e7-a95e-7aa19e412e68/2020_04_25_AKS_TechnicalReference_v0.14(ppt).zip), [video #1](https://download.microsoft.com/download/6/6/c/66c3ab0e-3d15-4e79-8377-a2880f1569b2/2020_04_25_AKS_TechnicalReference_v0.14(video1).zip), [YouTube #1](https://youtu.be/PrE3c1ZvL4s))
-      - 構築の要点 ([video #2](https://download.microsoft.com/download/9/7/8/97858185-ba75-48a3-a931-72092b5c1279/2020_04_25_AKS_TechnicalReference_v0.14(video2).zip), [YouTube #2](https://youtu.be/PL5MtSVzdI4))
-      - リファレンスアーキテクチャ ([video #3](https://download.microsoft.com/download/b/a/8/ba8a9c96-4fc8-43ed-8309-9624d1a45779/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip), [YouTube #3](https://youtu.be/-Mawv15LhQc))
+## 技術コンテンツ
 
-    - ARO (Azure Red Hat OpenShift)
-      - 技術概要、構築の要点 ([ppt](https://aka.ms/AAh58t1))
-      - リファレンスアーキテクチャ、構築スクリプト ([ppt](https://aka.ms/AAh58t1), [スクリプト](https://aka.ms/AAh5xey))
-      - ※ ARO リファレンスアーキテクチャは Red Hat 様ご協力の元、HPE 惣道様・米倉様に開発いただきました。この場を借りてお礼申し上げます。m(_ _)m
-
-    - Azure Batch
-      - 技術概要 ([ppt](https://download.microsoft.com/download/1/a/7/1a7fb7e9-1602-46de-9ff0-e8548d146a5b/2019_05_21_AzureBatchSample_Materials.zip), [video](https://download.microsoft.com/download/4/8/b/48baeee0-921c-4ecd-afa1-c57b2dcdc935/2019_05_21_AzureBatchSample_Video.zip), [YouTube #1](https://www.youtube.com/watch?v=-cJ50AfA8B4&t=2675s))
-      - 設計・実装技法 ([ppt](https://download.microsoft.com/download/4/5/4/454c783b-372f-48c1-aed8-e7b7b112599a/AzureBatch_Technical_reference_v0.20.pptx), [video](https://download.microsoft.com/download/2/1/6/2160a96c-deca-43fd-a557-72a9d29b58e1/2020_08_14_AzureBatch_TechnicalReference_v0.20.zip), [YouTube #2](https://youtu.be/o7AX2sP5TyE))
-      - リファレンスアーキテクチャ
-  - DevOps の構成方法
-    - Azure DevOps 概要デモ ([ppt](https://download.microsoft.com/download/a/f/f/affd5a6d-342f-4c19-a250-040d1ab3ce86/AzureDevOps_OverviewAndDemo_v0.02.pptx), [video](https://download.microsoft.com/download/2/0/b/20b0d275-0256-43b2-ac39-d22c9d5a47a6/2020_02_26_AzureDevOps_OverviewAndDemo_v0.02.zip), [YouTube](https://www.youtube.com/watch?v=aMLGuAdVsQ0&t=6045s)) <span style="color: red;">**★ オススメ**</a>
-  - DaaS の構成方法
-    - WVD 技術リファレンス ([ppt](https://download.microsoft.com/download/7/0/4/7044dce5-224d-48ae-ab78-e25935e59b6f/WVD_Commentary_material_v0.19.pptx), [YouTube](https://www.youtube.com/watch?v=Ac6ZfZFwwIo))
-  - 開発技術
-    - ASP.NET Blazor ([ppt](https://download.microsoft.com/download/7/0/5/705c8f4d-293e-4baa-9cc2-8db3ac9cc5dd/ASP.NETBlazor_v0.30.pptx), [サンプルプログラム](https://download.microsoft.com/download/0/1/f/01f96048-4250-4d8a-aa5d-d52a7c94a219/2021_11_25_AspNetCoreBlazor%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0.zip))
-
-<hr />
-
-## ② ルール・ガバナンス
-
-- ルール・ガバナンス再設計ガイド
-- セキュリティ維持・監査ガイド
-- SaaS セキュリティ審査ガイド
-
-<hr />
-
-## ③ 人材育成
-- 人材育成計画策定ガイド
+|大分類|小分類|トピック|オススメ度|コンテンツ|
+|:----|:----|:----|:----|:----|
+|設計・アーキテクチャ論|Azure 概論|Azure L100（旧版）||[mp4(1)](https://download.microsoft.com/download/d/b/0/db00c64b-5d6f-4394-b44b-baee4ef52133/2019_03_04_AzureL100Part1(HD).zip) [mp4(2)](https://download.microsoft.com/download/4/8/8/488124d3-6519-484e-bf74-8db9fe7c9e39/2019_03_04_AzureL100Part2(HD).zip) [mp4(3)](https://download.microsoft.com/download/6/f/5/6f5a32f4-f1c6-4210-84a6-09f5f055e449/2019_03_04_AzureL100Part3(HD).zip) [mp4(4)](https://download.microsoft.com/download/c/e/0/ce0be5d2-2d5b-4d4c-a740-1ae5790e5526/2019_03_04_AzureL100Executive(HD).zip)|
+||設計・開発方法論（一般）|Azure CAF (超訳版) (2022/12 版)||[ppt](https://aka.ms/AAj0ml9) [mp4 (前半)](https://aka.ms/AAj0ml8) [mp4 (後半)](https://aka.ms/AAj08w7)|
+||セキュリティ|ゼロトラストセキュリティ|★★★|[ppt](https://download.microsoft.com/download/d/f/e/dfed7e7b-75e8-4939-823d-25a06b0abd68/FgCF_①_0_Zero_trust_type_multi_cloud_IT_environment_Introduction_Further_shortened_version_v0.40.pptx) [mp4](https://download.microsoft.com/download/b/5/0/b507ac40-280b-413a-be8a-56b29a6a765d/2020_03_10_FgCF_ZeroTrustMultiCloudITEnvironment_movie_v0.40a.zip) [YouTube](https://www.youtube.com/watch?v=T3bySEjhoQ8)|
+|||OA 環境設計|★|[ppt](https://download.microsoft.com/download/e/6/2/e6254b95-f822-42a9-b68c-057a71a67dca/FgCF_102_Zero_Trust_Multi_Cloud_IT_Environment_OA_Environment_Design_v0.17.pptx) [mp4](https://download.microsoft.com/download/3/7/0/370c26c3-a785-462b-a484-b69500d28680/FgCF_Zero_Trust_IT_Infrastructure_Design_way_of_thinking_video_v0.17.mp4) [YouTube](https://www.youtube.com/watch?v=QUyfcHDJXyI)|
+|||Azure W-AF : Security|★|[ppt](https://download.microsoft.com/download/1/3/8/13855030-7731-47a8-9759-ff28d9c32e3e/AzureW-AF_Security_section_Overview_documentation_v0.13.pptx) [mp4](https://download.microsoft.com/download/1/4/9/149d6525-9a7a-42a4-9302-87efce5f4d82/2020_06_12_AzureW_AF_Security_v0.13.zip) [YouTube](https://www.youtube.com/watch?v=w7-LVAWaGZU)|
+||アプリ開発技術概論|コンテナ技術入門|★|[ppt](https://download.microsoft.com/download/3/f/7/3f7ac344-01c4-4c7f-8509-85bcc7371d9f/FgCF_130_CaaS_Container_Super_introduction_v0.03.pptx) [mp4](https://download.microsoft.com/download/5/7/6/5763af79-e5c0-4a37-86a5-e875581a5393/FgCF_130_CaaS_Container_Super_introduction_v0.03.zip)|
+||アプリ開発技術選択|IaaS/CaaS/PaaS の使い分け|★|[ppt](https://aka.ms/AAj0yh3)|
+|Azure テクノロジ|セキュリティ|Azure AD 基礎・Azure AD B2B|★★★|[ppt](https://download.microsoft.com/download/1/3/8/138c3005-82f4-41db-bf78-9ce6d46af2ab/FgCF_①_2_AzureAD_Overview_v0.70.pptx) [mp4](https://download.microsoft.com/download/f/6/0/f6093441-8ca4-4901-b74e-f87894fc9ad8/2020_01_08_FgCF_AzureADForAzureBasics_v0.22.zip) [YouTube](https://www.youtube.com/watch?v=H7TKjAGT7pA) [フルセット版](https://download.microsoft.com/download/4/4/2/442b4fb3-f47a-4d13-b67a-ab5c721dc4ac/AzureAuthorizationDesignAndManagement_v0.67.pptx)|
+|||Azure AD テナント初期構築|★|[ppt](https://download.microsoft.com/download/a/0/3/a03cab45-1a89-4e53-b026-1b55a2ee91db/FgCF_112_VDC_construction_Authentication_infrastructure_Method_of_creating_Azure_AD_tenant_for_Azure_management_v0.01.pptx) [mp4](https://download.microsoft.com/download/3/b/f/3bfc7a3a-2560-4659-8eef-8af599c41320/FgCF_112_VDC_construction_Authentication_infrastructure_Method_of_creating_Azure_AD_tenant_for_Azure_management_v0.01.zip)|
+|||MDfC/MDfS|★★|[→ IaaS VM 管理ガイドを参照](https://aka.ms/AAj08w4)|
+||ネットワーク|仮想ネットワーク設計|★★★|[ppt](https://download.microsoft.com/download/4/d/e/4de15095-223c-4e82-b187-315ffa852ade/FgCF_111_VDC_construction_Network_infrastructure_Azure_network_infrastructure_Explanation_v0.35.pptx) [mp4](https://download.microsoft.com/download/2/7/2/272111c2-a418-4864-b9ac-aaf01268c5c6/FgCF_111_VDC_construction_Network_infrastructure_Azure_network_infrastructure_Explanation_v0.35.zip)|
+|||延伸型 VNET 設計||[ppt](https://download.microsoft.com/download/d/f/f/dff93ba3-ab62-4a66-afc7-5d10da094c18/Web_DB_type_system_reference_architecture_and_main_points_of_construction(IaaS_VM_edition).pptx) [mp4](https://download.microsoft.com/download/d/a/8/da86811f-2aba-46da-ab2a-c42ed4e5a5c8/2019_11_07_FgCF_WebDB_ReferenceArchitecture(IaaSVM).zip) [YouTube](https://www.youtube.com/watch?v=iy4eGaUb-7U)|
+|||隔離型 VNET 設計||[ppt](https://download.microsoft.com/download/4/5/d/45d6e951-4d42-4276-83ac-13b5632b2ab9/FgCF_121_IaaS_VNET_IaaSVM_Reference_Architecture(Isolated_VNET_version)_v0.01.pptx) [doc](https://download.microsoft.com/download/a/c/8/ac880230-c893-49f3-b32d-3e70e8ac6f22/2021_05_31_FgCF_IaaS_IsolatedVNET_ReferenceArchitecture_v0.11_docs.zip) [mp4](https://download.microsoft.com/download/d/2/a/d2a476af-136a-4846-853e-0d566f9f9b96/FgCF_121_IaaS_VNET_IaaSVM_Reference_Architecture(Isolated_VNET_version)_v0.01.zip)|
+||IaaS|IaaS VM 解説 (旧)||[ppt](https://download.microsoft.com/download/9/a/2/9a258748-936b-4b43-b127-2adc616e70d7/FgCF_①_3_SecurityBaseline(IaaS)_v1.00.pptx) [mp4](https://download.microsoft.com/download/d/6/0/d60816c1-47d8-4e7f-9a3a-ef404b441104/2020_01_17_FgCF_SecurityBaseline(IaaS)_v1.00_SplitVersion.zip) [YouTube](https://www.youtube.com/watch?v=S3A4Q9qRcCs)|
+|||IaaS VM 管理ガイド|★★|[ppt](https://aka.ms/AAj08w4) [doc](https://aka.ms/AAj0ggu) [mp4 (前半)](https://aka.ms/AAj08w6) [mp4 (後半)](https://aka.ms/AAj0ggw)|
+|||Confidential Computing||[ppt](https://aka.ms/AAj1dsr) [mp4](https://aka.ms/AAj1op4)|
+||CaaS|AKS||[ppt](https://download.microsoft.com/download/6/4/c/64c7f727-7712-49e7-a95e-7aa19e412e68/2020_04_25_AKS_TechnicalReference_v0.14(ppt).zip) [mp4(1)](https://download.microsoft.com/download/6/6/c/66c3ab0e-3d15-4e79-8377-a2880f1569b2/2020_04_25_AKS_TechnicalReference_v0.14(video1).zip) [mp4(2)](https://download.microsoft.com/download/9/7/8/97858185-ba75-48a3-a931-72092b5c1279/2020_04_25_AKS_TechnicalReference_v0.14(video2).zip) [doc](https://download.microsoft.com/download/d/e/1/de1f3cf0-8589-4e21-a4e0-4d9bd7de8291/FgCF_132_CaaS_AKS_TechnicalReference_Buildingsample_app_v0.13.zip) [mp4(3)](https://download.microsoft.com/download/b/a/8/ba8a9c96-4fc8-43ed-8309-9624d1a45779/2020_04_25_AKS_TechnicalReference_v0.14(video3).zip) [YouTube(1)](https://www.youtube.com/watch?v=t-qqjCLwcQo) [YouTube(2)](https://www.youtube.com/watch?v=qSyhyO6QRcY) [YouTube(3)](https://www.youtube.com/watch?v=-X1QHzsOhBo)|
+||PaaS|App Service||[ppt](https://download.microsoft.com/download/6/9/3/6934d11e-78dc-4c00-ae61-316067193dc1/AppService_TechnicalReference_v0.06.pptx) [mp4(1)](https://download.microsoft.com/download/6/e/a/6ea96ebd-d9ff-4291-8976-a23698bf1282/2020_06_16_AppService_TechnicalReference_Part1.zip) [mp4(2)](https://download.microsoft.com/download/e/1/3/e130959e-7e85-48a0-a583-6ac49eed7303/2020_06_16_AppService_TechnicalReference_Part2.zip) [mp4(3)](https://download.microsoft.com/download/1/2/4/124c009d-2783-447f-8dad-124499c1523b/2020_06_16_AppService_TechnicalReference_Part3.zip) [YouTube(1)](https://www.youtube.com/watch?v=pfFEtl6hK1w) [YouTube(2)](https://www.youtube.com/watch?v=tP8uQ6WgFAM) [YouTube(3)](https://www.youtube.com/watch?v=L05eizD8ws4)|
+|||Azure Batch||[ppt(1)](https://download.microsoft.com/download/1/a/7/1a7fb7e9-1602-46de-9ff0-e8548d146a5b/2019_05_21_AzureBatchSample_Materials.zip) [mp4(1)](https://download.microsoft.com/download/4/8/b/48baeee0-921c-4ecd-afa1-c57b2dcdc935/2019_05_21_AzureBatchSample_Video.zip) [YouTube(1)](https://www.youtube.com/watch?v=Z8d4zq8Skh4) [ppt(2)](https://download.microsoft.com/download/4/5/4/454c783b-372f-48c1-aed8-e7b7b112599a/AzureBatch_Technical_reference_v0.20.pptx) [mp4(2)](https://download.microsoft.com/download/2/1/6/2160a96c-deca-43fd-a557-72a9d29b58e1/2020_08_14_AzureBatch_TechnicalReference_v0.20.zip) [YouTube(3)](https://www.youtube.com/watch?v=VvmK7wRBU5Y)|
+||ストレージ (DB)|SQL Database||→ App Service 資料を参照|
+||CI/CD, DevOps|Azure DevOps|★|[ppt](https://download.microsoft.com/download/a/f/f/affd5a6d-342f-4c19-a250-040d1ab3ce86/AzureDevOps_OverviewAndDemo_v0.02.pptx) [mp4](https://download.microsoft.com/download/2/0/b/20b0d275-0256-43b2-ac39-d22c9d5a47a6/2020_02_26_AzureDevOps_OverviewAndDemo_v0.02.zip) [YouTube](https://www.youtube.com/watch?v=bQ5qG7Avfws)|
+||開発技術|ASP.NET Core Blazor||[ppt](https://download.microsoft.com/download/7/0/5/705c8f4d-293e-4baa-9cc2-8db3ac9cc5dd/ASP.NETBlazor_v0.30.pptx) [zip](https://download.microsoft.com/download/0/1/f/01f96048-4250-4d8a-aa5d-d52a7c94a219/2021_11_25_AspNetCoreBlazorサンプルプログラム.zip)|
+||DaaS|AVD||[ppt](https://download.microsoft.com/download/7/0/4/7044dce5-224d-48ae-ab78-e25935e59b6f/WVD_Commentary_material_v0.19.pptx)|
+||運用管理|仮想マシンの運用管理 詳細||→ IaaS VM 管理ガイドを参照|
+||その他|IaC (ARM テンプレート)||[ppt](https://download.microsoft.com/download/e/e/9/ee906254-0816-41f4-98eb-612bcbf1455a/ARM_template_development_v0.33.pptx) [mp4](https://download.microsoft.com/download/1/f/0/1f063580-4ba6-41f1-913f-2ba81425185c/2019_01_03_PracticalARMTemplate.zip) [YouTube1](https://www.youtube.com/watch?v=NGrnP8OdF7U) [YouTube2](https://www.youtube.com/watch?v=BQy7WCYBFCU)|
 
 ## その他
 - 一般公開されているオススメトレーニングビデオとセッション
